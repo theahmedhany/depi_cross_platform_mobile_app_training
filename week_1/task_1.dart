@@ -1,14 +1,3 @@
-/*
-
-Write a Dart program that has two numbers and prints their:
-  Sum
-  Difference
-  Product
-  Integer division
-  Remainder
-
-*/
-
 void main() {
   int num1 = 15;
   int num2 = 4;

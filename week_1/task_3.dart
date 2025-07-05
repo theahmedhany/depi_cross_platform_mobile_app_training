@@ -1,9 +1,3 @@
-/*
-
-Write a Dart program to check if a given variable is of type int.
-
-*/
-
 void main() {
   var value = '123';
 

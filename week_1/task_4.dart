@@ -1,9 +1,3 @@
-/*
-
-Write a Dart program to verify that a variable is not a String.
-
-*/
-
 void main() {
   var value = 123;
 

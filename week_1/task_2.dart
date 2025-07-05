@@ -1,9 +1,3 @@
-/*
-
-Write a Dart program to check if a user’s age is greater than 18 and print "Adult" if true, otherwise "Minor".
-
-*/
-
 import 'dart:io';
 
 void main() {
