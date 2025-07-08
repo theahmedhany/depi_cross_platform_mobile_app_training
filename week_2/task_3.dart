@@ -1,12 +1,3 @@
-/*
-
-Write a Dart program that has a number between 0 and 100, and prints:
-  "Excellent" if the number is 90 or above
-  "Good" if it is 75–89
-  "Average" if it is 50–74
-  "Fail" if below 50
-
-*/
 void main() {
   int score = 82;
 
