@@ -1,11 +1,3 @@
-/*
-
-🧩 Task 3: Named Constructor
-  Create a class User with a named constructor guest() that sets default values.
-  Print the default info in main().
-
-*/
-
 class User {
   String name;
   int age;

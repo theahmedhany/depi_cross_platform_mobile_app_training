@@ -1,11 +1,3 @@
-/*
-
-🧩 Task 8: Multiple Mixins
-  Create two mixins Logger and Saver.
-  Create a class App that mixes both and calls methods from both mixins.
-
-*/
-
 mixin Logger {
   void log() => print('Logging...');
 }

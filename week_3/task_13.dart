@@ -1,12 +1,3 @@
-/*
-
-🧩 Task 9: Polymorphism
-  Create a class Animal with a method makeSound().
-  Create two subclasses Dog and Cat that override this method.
-  In main(), use polymorphism to call the overridden method.
-
-*/
-
 class Animal {
   void makeSound() {
     print('Some generic animal sound');
