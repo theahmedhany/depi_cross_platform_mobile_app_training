@@ -52,7 +52,7 @@ Master fundamental Flutter development concepts including widget composition, Ma
 
 ## 📸 Application Preview
 
-<img width="1080" height="2400" alt="Home Pag" src="https://github.com/user-attachments/assets/e33e70a5-b744-4364-af2a-b6e8929b8025" />
+![Home Page](https://github.com/user-attachments/assets/e33e70a5-b744-4364-af2a-b6e8929b8025)
 
 _Main home page featuring purple-themed Material Design with centered welcome message and interactive navigation elements._
 
