@@ -20,7 +20,6 @@ class ProductCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Product Image
             Expanded(
               flex: 3,
               child: ClipRRect(
@@ -48,7 +47,6 @@ class ProductCard extends StatelessWidget {
                 ),
               ),
             ),
-            // Product Details
             Expanded(
               flex: 2,
               child: Padding(
@@ -56,24 +54,24 @@ class ProductCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Product Title
                     Text(
                       product.title,
                       style: Theme.of(context).textTheme.titleSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
-                      maxLines: 2,
+                      maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
                     const SizedBox(height: 4),
-                    // Category
                     Container(
                       padding: const EdgeInsets.symmetric(
                         horizontal: 8,
                         vertical: 2,
                       ),
                       decoration: BoxDecoration(
-                        color: Theme.of(context).primaryColor.withOpacity(0.1),
+                        color: Theme.of(
+                          context,
+                        ).primaryColor.withValues(alpha: 0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Text(
@@ -88,11 +86,9 @@ class ProductCard extends StatelessWidget {
                       ),
                     ),
                     const Spacer(),
-                    // Price and Rating Row
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        // Price
                         Text(
                           '\$${product.price.toStringAsFixed(2)}',
                           style: Theme.of(context).textTheme.titleMedium
@@ -101,7 +97,6 @@ class ProductCard extends StatelessWidget {
                                 color: Theme.of(context).primaryColor,
                               ),
                         ),
-                        // Rating
                         Row(
                           children: [
                             const Icon(

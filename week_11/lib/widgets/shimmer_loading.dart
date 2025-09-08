@@ -15,7 +15,6 @@ class ProductCardShimmer extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Image placeholder
             Expanded(
               flex: 3,
               child: Container(
@@ -29,7 +28,6 @@ class ProductCardShimmer extends StatelessWidget {
                 ),
               ),
             ),
-            // Content placeholder
             Expanded(
               flex: 2,
               child: Padding(
@@ -37,7 +35,6 @@ class ProductCardShimmer extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Title placeholder
                     Container(
                       width: double.infinity,
                       height: 16,
@@ -56,17 +53,6 @@ class ProductCardShimmer extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    // Category placeholder
-                    Container(
-                      width: 60,
-                      height: 20,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                    const Spacer(),
-                    // Price and rating row
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -112,7 +98,7 @@ class ProductsGridShimmer extends StatelessWidget {
         mainAxisSpacing: 16,
         childAspectRatio: 0.75,
       ),
-      itemCount: 6, // Show 6 shimmer cards
+      itemCount: 6,
       itemBuilder: (context, index) => const ProductCardShimmer(),
     );
   }

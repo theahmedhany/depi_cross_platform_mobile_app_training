@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Products Store',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -24,10 +23,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
         useMaterial3: true,
-        appBarTheme: const AppBarTheme(
-          centerTitle: true,
-          elevation: 0,
-        ),
+        appBarTheme: const AppBarTheme(centerTitle: true, elevation: 0),
         cardTheme: CardThemeData(
           elevation: 4,
           shape: RoundedRectangleBorder(

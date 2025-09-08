@@ -1,24 +1,20 @@
 import 'package:flutter/material.dart';
 
 class AppConstants {
-  // API Configuration
   static const String baseUrl = 'https://fakestoreapi.com';
   static const Duration requestTimeout = Duration(seconds: 30);
   static const Duration connectTimeout = Duration(seconds: 30);
 
-  // UI Configuration
   static const double cardBorderRadius = 16.0;
   static const double buttonBorderRadius = 12.0;
   static const double defaultPadding = 16.0;
   static const double smallPadding = 8.0;
   static const double largePadding = 24.0;
 
-  // Grid Configuration
   static const int gridCrossAxisCount = 2;
   static const double gridChildAspectRatio = 0.75;
   static const double gridSpacing = 16.0;
 
-  // Animation Durations
   static const Duration shortAnimation = Duration(milliseconds: 300);
   static const Duration mediumAnimation = Duration(milliseconds: 500);
   static const Duration longAnimation = Duration(milliseconds: 800);

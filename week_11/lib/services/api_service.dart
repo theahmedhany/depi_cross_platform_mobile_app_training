@@ -19,7 +19,6 @@ class ApiService {
       ),
     );
 
-    // Add interceptors for logging and error handling
     _dio.interceptors.add(
       LogInterceptor(
         requestBody: true,
@@ -41,14 +40,18 @@ class ApiService {
     );
   }
 
-  /// Fetch all products from the API
   Future<List<ProductModel>> fetchProducts() async {
     try {
       final response = await _dio.get('/products');
 
       if (response.statusCode == 200) {
-        final List<dynamic> data = response.data;
-        return data.map((json) => ProductModel.fromJson(json)).toList();
+        final List<dynamic> data = response.data as List<dynamic>;
+        if (data.isEmpty) {
+          return [];
+        }
+        return data
+            .map((json) => ProductModel.fromJson(json as Map<String, dynamic>))
+            .toList();
       } else {
         throw ApiException(
           'Failed to fetch products: ${response.statusCode}',
@@ -62,13 +65,12 @@ class ApiService {
     }
   }
 
-  /// Fetch a single product by ID
   Future<ProductModel> fetchProductById(int id) async {
     try {
       final response = await _dio.get('/products/$id');
 
       if (response.statusCode == 200) {
-        return ProductModel.fromJson(response.data);
+        return ProductModel.fromJson(response.data as Map<String, dynamic>);
       } else {
         throw ApiException(
           'Failed to fetch product: ${response.statusCode}',
@@ -82,14 +84,18 @@ class ApiService {
     }
   }
 
-  /// Fetch products by category
   Future<List<ProductModel>> fetchProductsByCategory(String category) async {
     try {
       final response = await _dio.get('/products/category/$category');
 
       if (response.statusCode == 200) {
-        final List<dynamic> data = response.data;
-        return data.map((json) => ProductModel.fromJson(json)).toList();
+        final List<dynamic> data = response.data as List<dynamic>;
+        if (data.isEmpty) {
+          return [];
+        }
+        return data
+            .map((json) => ProductModel.fromJson(json as Map<String, dynamic>))
+            .toList();
       } else {
         throw ApiException(
           'Failed to fetch products by category: ${response.statusCode}',
@@ -103,13 +109,15 @@ class ApiService {
     }
   }
 
-  /// Fetch all available categories
   Future<List<String>> fetchCategories() async {
     try {
       final response = await _dio.get('/products/categories');
 
       if (response.statusCode == 200) {
-        final List<dynamic> data = response.data;
+        final List<dynamic> data = response.data as List<dynamic>;
+        if (data.isEmpty) {
+          return [];
+        }
         return data.cast<String>();
       } else {
         throw ApiException(
@@ -124,7 +132,6 @@ class ApiService {
     }
   }
 
-  /// Handle Dio errors and convert them to ApiException
   ApiException _handleDioError(DioException error) {
     switch (error.type) {
       case DioExceptionType.connectionTimeout:
@@ -148,7 +155,6 @@ class ApiService {
   }
 }
 
-/// Custom exception class for API errors
 class ApiException implements Exception {
   final String message;
   final int statusCode;

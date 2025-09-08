@@ -14,7 +14,6 @@ class ProductDetailScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: CustomScrollView(
         slivers: [
-          // App Bar with Product Image
           SliverAppBar(
             expandedHeight: 400,
             pinned: true,
@@ -22,7 +21,7 @@ class ProductDetailScreen extends StatelessWidget {
             leading: Container(
               margin: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.9),
+                color: Colors.white.withValues(alpha: 0.9),
                 shape: BoxShape.circle,
               ),
               child: IconButton(
@@ -53,21 +52,21 @@ class ProductDetailScreen extends StatelessWidget {
             ),
           ),
 
-          // Product Details
           SliverToBoxAdapter(
             child: Container(
               padding: const EdgeInsets.all(20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Category Badge
                   Container(
                     padding: const EdgeInsets.symmetric(
                       horizontal: 12,
                       vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: Theme.of(context).primaryColor.withOpacity(0.1),
+                      color: Theme.of(
+                        context,
+                      ).primaryColor.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
@@ -83,7 +82,6 @@ class ProductDetailScreen extends StatelessWidget {
 
                   const SizedBox(height: 16),
 
-                  // Product Title
                   Text(
                     product.title,
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
@@ -94,11 +92,9 @@ class ProductDetailScreen extends StatelessWidget {
 
                   const SizedBox(height: 16),
 
-                  // Price and Rating Row
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Price
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -122,7 +118,6 @@ class ProductDetailScreen extends StatelessWidget {
                         ],
                       ),
 
-                      // Rating
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,7 +155,6 @@ class ProductDetailScreen extends StatelessWidget {
 
                   const SizedBox(height: 24),
 
-                  // Description Section
                   Text(
                     'Description',
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(
@@ -188,13 +182,11 @@ class ProductDetailScreen extends StatelessWidget {
 
                   const SizedBox(height: 32),
 
-                  // Add to Cart Button
                   SizedBox(
                     width: double.infinity,
                     height: 56,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Show snackbar for demo purposes
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text('${product.title} added to cart!'),

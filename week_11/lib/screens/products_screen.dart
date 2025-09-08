@@ -40,7 +40,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
         ),
         body: Column(
           children: [
-            // Search Bar
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -56,7 +55,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
                   borderRadius: BorderRadius.circular(25),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
+                      color: Colors.black.withValues(alpha: 0.1),
                       blurRadius: 10,
                       offset: const Offset(0, 2),
                     ),
@@ -80,7 +79,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
               ),
             ),
 
-            // Products Grid
             Expanded(
               child: BlocBuilder<ProductsCubit, ProductsState>(
                 builder: (context, state) {
@@ -205,7 +203,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
                     );
                   }
 
-                  // Initial state
                   return const Center(child: CircularProgressIndicator());
                 },
               ),
