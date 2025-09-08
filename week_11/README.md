@@ -92,7 +92,7 @@ lib/
 - Pull-to-refresh functionality for seamless data updates
 - Responsive grid layout adapting to different screen sizes
 
-https://github.com/user-attachments/assets/11b8156d-6b19-4cab-95e1-878f100eefbd
+<img width="1080" height="2400" alt="Products" src="https://github.com/user-attachments/assets/11b8156d-6b19-4cab-95e1-878f100eefbd" />
 
 _Features beautiful animated interface with comprehensive product information and smooth user interactions_
 
@@ -109,7 +109,7 @@ _Features beautiful animated interface with comprehensive product information an
 - **Performance Optimization**: Efficient filtering algorithms with minimal re-renders
 - **User Experience**: Smooth search animations and intuitive clear functionality
 
-https://github.com/user-attachments/assets/9413d10a-31a2-474c-9c06-9fb155be9712
+<img width="1080" height="2400" alt="Search" src="https://github.com/user-attachments/assets/9413d10a-31a2-474c-9c06-9fb155be9712" />
 
 _Demonstrates advanced search implementation with excellent performance and user experience_
 
@@ -127,7 +127,7 @@ _Demonstrates advanced search implementation with excellent performance and user
 - **Professional Layout**: Clean information hierarchy with proper spacing and typography
 - **Scroll Experience**: Smooth scrolling with collapsing app bar and floating elements
 
-https://github.com/user-attachments/assets/6a7ee10a-ffed-402c-887d-8af38d45345d
+<img width="1080" height="2400" alt="Product Details" src="https://github.com/user-attachments/assets/6a7ee10a-ffed-402c-887d-8af38d45345d" />
 
 _Shows advanced product detail implementation with excellent visual design and user interaction_
 
@@ -144,7 +144,7 @@ _Shows advanced product detail implementation with excellent visual design and u
 - **Search State**: Reactive search functionality with immediate UI updates
 - **Performance**: Optimized state updates with selective widget rebuilding
 
-https://github.com/user-attachments/assets/d796bfb9-e916-464e-b944-d0610a1458f0
+<img width="1080" height="2400" alt="Product Added to Cart" src="https://github.com/user-attachments/assets/d796bfb9-e916-464e-b944-d0610a1458f0" />
 
 _Demonstrates professional state management patterns with excellent performance_
 
@@ -161,7 +161,7 @@ _Demonstrates professional state management patterns with excellent performance_
 - **Request Logging**: Detailed API logging for debugging and monitoring
 - **Performance**: Efficient API calls with proper timeout configurations
 
-https://github.com/user-attachments/assets/887ab482-075d-4a4e-af63-b0fdbed69a67
+<img width="1080" height="2400" alt="Refresh" src="https://github.com/user-attachments/assets/887ab482-075d-4a4e-af63-b0fdbed69a67" />
 
 _Shows advanced networking implementation with robust error handling and user experience_
 
@@ -178,7 +178,7 @@ _Shows advanced networking implementation with robust error handling and user ex
 - **Interactive Feedback**: Intuitive touch feedback and visual state changes
 - **Accessibility**: WCAG compliant design with proper contrast and touch targets
 
-https://github.com/user-attachments/assets/86d43a71-1b49-495b-943c-d120e40ce309
+<img width="1080" height="2400" alt="Shimmer" src="https://github.com/user-attachments/assets/86d43a71-1b49-495b-943c-d120e40ce309" />
 
 _Demonstrates advanced UI/UX implementation with Material Design 3 excellence_
 
