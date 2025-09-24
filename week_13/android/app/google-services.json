@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242818570664",
+    "project_id": "nexa-e703c",
+    "storage_bucket": "nexa-e703c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242818570664:android:3cb988e660d94f6598659d",
+        "android_client_info": {
+          "package_name": "com.example.nexa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZYpXlR9fPIrcrIFwENEBI9VPc73gr0GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242818570664:android:61c25dac231c8c1498659d",
+        "android_client_info": {
+          "package_name": "com.example.week_13"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZYpXlR9fPIrcrIFwENEBI9VPc73gr0GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
