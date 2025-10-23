@@ -2,7 +2,7 @@
 
 A beautiful and feature-rich Flutter notes application with **stunning animations**, **professional UI design**, and **persistent storage**. Built with modern Material Design 3 principles and the animate_do package for smooth, delightful animations.A new Flutter project.
 
-## 📱 Screenshots & Features## Getting Started
+## 📱 Screenshots & Features
 
 ### ✨ Key FeaturesThis project is a starting point for a Flutter application.
 
