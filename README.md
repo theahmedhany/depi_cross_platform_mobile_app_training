@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DEPI – Cross Platform Mobile App Developer Track
+# DEPI – Cross Platform Mobile App Developer Track
 
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
 <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
@@ -13,6 +13,10 @@ _Part of the Digital Egypt Pioneers Initiative (DEPI) - رواد مصر الرق
 This repository contains comprehensive hands-on training materials, exercises, and production-ready projects built using Flutter and Dart, designed to transform learners into industry-ready mobile developers.
 
 ---
+
+</div>
+
+<div align="left">
 
 ### 📊 Training Program Statistics
 
@@ -27,7 +31,6 @@ This repository contains comprehensive hands-on training materials, exercises, a
 | **UX/UI Basics**            | 3              | 1            | 0            | 3            | 0                  |
 | **Git & GitHub**            | 6              | 1            | 1            | 3            | 3                  |
 | **Documentation & Testing** | 3              | 1            | 0            | 3            | 0                  |
-| **Mobile Deployment**       | -              | -            | -            | -            | -                  |
 | **Total**                   | **111+ Hours** | **24 Weeks** | **13 Hours** | **72 Hours** | **39 Assessments** |
 
 </div>
