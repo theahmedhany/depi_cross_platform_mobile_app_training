@@ -28,10 +28,10 @@ This repository contains comprehensive hands-on training materials, exercises, a
 | **Flutter Advanced**        | 24             | 6            | 2            | 18           | 6                  |
 | **Firebase Integration**    | 18             | 4            | 2            | 12           | 6                  |
 | **Security Essentials**     | 12             | 2            | 2            | 6            | 6                  |
-| **UX/UI Basics**            | 3              | 1            | 0            | 3            | 0                  |
-| **Git & GitHub**            | 6              | 1            | 1            | 3            | 3                  |
-| **Documentation & Testing** | 3              | 1            | 0            | 3            | 0                  |
-| **Total**                   | **111+ Hours** | **24 Weeks** | **13 Hours** | **72 Hours** | **39 Assessments** |
+| **UX/UI Basics**            | 3              | 1            | 0            | 3            | 1                  |
+| **Git & GitHub**            | 6              | 1            | 1            | 3            | 2                  |
+| **Documentation & Testing** | 3              | 1            | 0            | 3            | 1                  |
+| **Total**                   | **111+ Hours** | **24 Weeks** | **13 Hours** | **72 Hours** | **40 Assessments** |
 
 </div>
 
@@ -467,8 +467,6 @@ By completing this training program, you will be able to:
 ---
 
 </div>
-
----
 
 ## **Connect & Collaborate**
 
