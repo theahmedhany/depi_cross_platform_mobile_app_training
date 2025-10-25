@@ -294,8 +294,6 @@ This curriculum provides comprehensive and practical exposure to cross-platform 
 
 ---
 
----
-
 ## 🎓 Skills Acquired
 
 <table>
