@@ -1,29 +1,21 @@
 import 'package:flutter/material.dart';
 
+import 'core/theme/app_theme.dart';
+import 'features/onboarding/screens/onboarding_screen.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(const FocusApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FocusApp extends StatelessWidget {
+  const FocusApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home Page')),
-      body: const Center(child: Text('Welcome to the Home Page!')),
+      theme: AppTheme.lightTheme,
+      home: const OnboardingScreen(),
     );
   }
 }
