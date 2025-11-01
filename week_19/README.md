@@ -1,7 +1,5 @@
 # Week 19: Movie Discovery App
 
----
-
 ## 📖 About
 
 Popular Movies is a sophisticated Flutter application that allows users to discover and explore popular movies from The Movie Database (TMDB). Built with production-ready architecture and best practices, the app features offline-first functionality, smooth infinite scrolling, and a modern Material Design 3 interface with both light and dark themes.
@@ -39,16 +37,16 @@ Popular Movies is a sophisticated Flutter application that allows users to disco
   - Continue browsing even without internet connection
   - Automatic cache updates when online
 
-<table align="center">
+<table>
   <tr>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/2d863b2c-c998-4b2f-91b1-22291beb5b04" alt="MovieHub" />
+      <img height="500" src="https://github.com/user-attachments/assets/2d863b2c-c998-4b2f-91b1-22291beb5b04" alt="MovieHub" />
     </td>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/92fe5a1e-a252-44d0-a813-bda536eb9e6d" alt="MovieHub" />
+      <img height="500" src="https://github.com/user-attachments/assets/92fe5a1e-a252-44d0-a813-bda536eb9e6d" alt="MovieHub" />
     </td>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/0a9930bc-da52-4587-8004-c972adf5702c" alt="MovieHub" />
+      <img height="500" src="https://github.com/user-attachments/assets/0a9930bc-da52-4587-8004-c972adf5702c" alt="MovieHub" />
     </td>
   </tr>
 </table>
@@ -397,16 +395,16 @@ https://image.tmdb.org/t/p/w500/{image_path}
 - **cached_network_image**: ^3.4.1 - Efficient image loading and caching
 - **cupertino_icons**: ^1.0.8 - iOS-style icons
 
-<table align="center">
+<table>
   <tr>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/8b386b1c-598b-46ec-a46b-6c4ab29eeaf5" alt="Movie App" />
+      <img height="500" src="https://github.com/user-attachments/assets/8b386b1c-598b-46ec-a46b-6c4ab29eeaf5" alt="Movie App" />
     </td>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/66dd972c-fcce-49c7-9b2d-6043a1305d88" alt="Movie App" />
+      <img height="500" src="https://github.com/user-attachments/assets/66dd972c-fcce-49c7-9b2d-6043a1305d88" alt="Movie App" />
     </td>
     <td>
-      <img height="400" src="https://github.com/user-attachments/assets/066ba6ba-7b08-44ca-8374-acad8791b88c" alt="Movie App" />
+      <img height="500" src="https://github.com/user-attachments/assets/066ba6ba-7b08-44ca-8374-acad8791b88c" alt="Movie App" />
     </td>
   </tr>
 </table>
@@ -542,21 +540,5 @@ dart run build_runner watch --delete-conflicting-outputs
   - Elevated components
   - Dynamic colors
   - Consistent typography
-
-## 🧪 Testing & Quality
-
-### Code Quality
-
-- Flutter lints enabled
-- Consistent code formatting
-- Clear naming conventions
-- Comprehensive documentation
-
-### Error Handling
-
-- Centralized error management
-- User-friendly error messages
-- Graceful degradation
-- Detailed error logging
 
 ---
